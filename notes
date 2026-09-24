@@ -1,0 +1,16 @@
+# Lab 15 — Layer Diagram
+
+## Step 1 — Boxes
+Layer 1: Controller
+Layer 2: Service
+Layer 3: Repositpry
+
+## Step 2 — Arrow labels
+Inward call: Request -> service -> repository
+Outward return: response <- result <- data
+
+## Step 3 — Correlation
+Inward calls move down the layers while outward layers return up the layers
+
+## Scope
+Pre-lab only.
