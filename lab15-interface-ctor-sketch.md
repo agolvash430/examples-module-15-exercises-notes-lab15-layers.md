@@ -1,16 +1,16 @@
 # Lab 15 — Interface and Constructor Sketch
 
 ## Step 1 — Interface
-Methods: findById, activate(customerId) / changeStatus.
+Methods: findById, save, existsById
 
 ## Step 2 — Constructor
-Deps: CustomerRepository, CustomerValidator (optional notifier).
+Deps: repository, notifier (if needed), logger
 
 ## Step 3 — No framework magic
-Prefer explicit ctor over field injection.
+Prefer constructor injection over field injection.
 
 ## Step 4 — Prep boundary
-Prepare for Lab 15; do not complete full service implementation now.
+Service enforces transition rules; repository only persists state.
 
 ## Scope
 Pre-lab only.
